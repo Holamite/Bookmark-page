@@ -1,0 +1,36 @@
+/*****************************/
+/* Below 944px (Tablets)*/
+/*****************************/
+
+@media (max-width: 59em) {
+  .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 1.6rem;
+    box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .nav-link {
+    display: block;
+  }
+
+  .btn-nav {
+    display: inline-block;
+  }
+
+  .open-icon {
+    display: inline-block;
+  }
+
+  .close-icon {
+    display: none;
+  }
+}
